@@ -27,7 +27,6 @@ app.get('/v1/sateis/:searchType/:code', (req, res) => {
       {
         "searchtype":param_searchType,
         "code":param_code,
-        "code":"9876543223",
         "login_id":"",
         "maker_type":"",
         "maker":"",
