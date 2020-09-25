@@ -45,7 +45,7 @@ app.get('/v1/sateis/:searchType/:code', (req, res) => {
         "AssessmentId":AssessmentId,
         "LoginID":"MP5A3",
         "ImportKbn":"0",
-        "Maker_CD":"10",
+        "Maker_CD":"1010",
         "Car_CD":"007",
         "Keito_CD":"007",
         "Model":"002",
