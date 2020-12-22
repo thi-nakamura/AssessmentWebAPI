@@ -25,7 +25,7 @@ app.get('/v1/sateis/:searchType/:code', (req, res) => {
   }
   else if (reqHeader_companyCode == "000002" &&
             (
-              (param_searchType == "MC" && param_code == "20236898") ||
+              (param_searchType == "MC" && param_code == "20313633") ||
               (param_searchType == "SC" && param_code == "9876543210")
             )
           )
@@ -50,7 +50,7 @@ app.get('/v1/sateis/:searchType/:code', (req, res) => {
         "AssessmentId":AssessmentId,
         "LoginID":"MP5A3",
         "ImportKbn":"0",
-        "Maker_CD":1010,
+        "Maker_CD":1,
         "Car_CD":"007",
         "Keito_CD":"007",
         "Model":"002",
@@ -72,9 +72,9 @@ app.get('/v1/sateis/:searchType/:code', (req, res) => {
         "FirstRegisterY":"1980",
         "FirstRegisterM":"09",
         "FullModel":"FULLDA1657876",
-        "Length":1234,
-        "Width":5678,
-        "Height":8765,
+        "Length":111,
+        "Width":222,
+        "Height":333,
         "ShapeCode1":"CP",
         "ShapeCode2":"HB",
         "DoorNum":"3",
@@ -253,7 +253,7 @@ app.get('/v1/sateis/:searchType/:code', (req, res) => {
         "SellingPoint10":"定期メンテナンス済み",
         "SellingPoint11":"その他：＊＊＊＊()１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやいゆえよらりるれろわいうえを１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやいゆえよらりるれろわいうえを１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやいゆえよらりるれろわいうえを",
         "ConveyNote":"ワンプラ落札車",
-        "PresentedAmount":"50000",
+        "PresentedAmount":"他社査定金額：50,000円",
         "CompetitorName":"株式会社NEUTRUS",
         "CustomerHopeSaleAmount":"希望金額：100,000円()１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０１２３４５６７８９０",
         "SpecialNote01":"フロントガラス：亀裂 200mm",
